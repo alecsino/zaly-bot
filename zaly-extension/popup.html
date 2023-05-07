@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles/popup.css">
+  </head>
+  <body>
+    <div class="header">
+        <div class="header_text">Home</div>
+    </div>
+
+    <div class="card_container">
+        <div class="card">
+            <div class="card_title_container">
+              <div class="card_title">Fetch</div>
+              <div class="card_title status" id="fetchStatus"></div>
+            </div>
+            <input type="text" id= "product_url" placeholder="Product URL">
+            <div class="fetch_container">
+              <input type="button" value="Page" id="getPage">
+              <input type="button" value="Fetch" id="setUrl">
+            </div>
+            <div class="fetch_container">
+              <input type="button" value="Stop" id="stopFetch">
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_title">Sizes</div>
+        </div>
+    </div>
+
+    <div class="footer_container">
+      <div id="bot_status" class="ping_text"></div>
+      <div class="ping_text">Ping:&#160;<div id="ping"></div>ms</div>
+    </div>    
+  </body>
+  <script type="module" src="./src/popup.js"></script>
+</html>

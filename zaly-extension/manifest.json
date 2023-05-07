@@ -1,0 +1,21 @@
+{
+    "name": "Zallie",
+    "description": "",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "background": {
+        "page": "background.html",
+        "persistent": true
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "webRequest"
+    ],
+    "content_scripts" : [{
+        "matches" : [ "https://redacted/*"],
+        "js" : ["./src/zaly.js"]
+    }]
+  }

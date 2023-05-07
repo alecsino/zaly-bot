@@ -1,0 +1,14 @@
+{
+  "name": "zaly-client",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alecs",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io-client": "^4.4.1"
+  }
+}

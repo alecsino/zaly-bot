@@ -1,0 +1,104 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #2c3e50;
+    margin: 0;
+}
+
+.header{
+    background-color: #9b59b6;
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header_text{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 100px;
+    padding-top: 8px;
+}
+
+.card_container{
+    display: flex;
+}
+
+.card{
+    background-color: #34495e;
+    width: 200px;
+    margin: 20px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.card_title{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+.ping_text{
+    margin: 0 10px 10px 10px;
+    color: #bdc3c7;
+    display: flex;
+}
+
+#product_url{
+    margin: 20px 10px 0px;
+}
+
+input[type=text] {
+    width: 90%;
+    height: 15px;
+    padding: 12px 6px;
+    box-sizing: border-box;
+    border: 2px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+input[type=button]{
+    margin: 0px 5px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 2px 8px;
+    height: 24px;
+    border: none;
+    color: #fff;
+    background-color: #9b59b6;
+    transition: background-color .17s ease,color .17s ease;
+}
+
+input[type=button]:hover{
+    background-color: #943ab8;
+}
+
+.fetch_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+.card_title_container{
+    display: flex;
+}
+
+.card_title.status{
+    width: 100%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+}

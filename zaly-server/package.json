@@ -1,0 +1,15 @@
+{
+  "name": "zaly-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alecs",
+  "license": "ISC",
+  "dependencies": {
+    "req-fast": "^0.2.21",
+    "socket.io": "^4.4.1"
+  }
+}
